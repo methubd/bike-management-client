@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    border: 0 0 0 0;
+}
+
+:root {
+    --primary-color: rgb(130, 161, 245);
+    --secondary-color: rgb(249, 223, 223);
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    padding: 5px 15px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgb(59, 89, 173);
+}
